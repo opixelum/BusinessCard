@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+}
+
+#profile-picture {
+    position: sticky;
+    top: 0;
+    z-index: -1;
+    border: none;
+}
+
+#root {
+    display: flex;
+    flex-wrap: wrap;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    width: 390px;
+    height: 844px;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+#card {
+    z-index: 1;
+    background-color: #222222;
+    border-radius: 20px 20px 0 0;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    margin: 2px;
+}
+
+button img {
+    margin-right: 10px
+}
+
+#portfolio-btn {
+    width: 180px;
+    color: white;
+    background-color: #555555;
+}
+
+#linkedin-btn {
+    width: 180px;
+    color: white;
+    background-color: #2867b2;
+}
+
+#email-btn {
+    width: 360px;
+    color: black;
+    background-color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+}
