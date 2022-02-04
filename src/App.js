@@ -1,3 +1,4 @@
+import ScrollArrows from "./components/ScrollArrows"
 import Header from "./components/Header"
 import Main from "./components/Main"
 import Footer from "./components/Footer"
@@ -8,6 +9,7 @@ export default function App() {
         <>
           <img id="profile-picture" alt="Profile picture" width="390px"
           src={profilePicture}></img>
+          <ScrollArrows/>
           <div id="card">
             <Header/>
             <Main/>
